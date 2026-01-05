@@ -12,7 +12,7 @@ terraform {
 #     region = "us-east-1"
 #     dynamodb_table = "daws76s-locking-dev"
 #   }
-# }
+}
 
 # Configure the AWS Provider
 provider "aws" {
