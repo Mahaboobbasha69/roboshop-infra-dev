@@ -6,13 +6,13 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket = "daws76s-state-dev"
-    key    = "vpc"
-    region = "us-east-1"
-    dynamodb_table = "daws76s-locking-dev"
-  }
-}
+#   backend "s3" {
+#     bucket = "daws76s-state-dev"
+#     key    = "vpc"
+#     region = "us-east-1"
+#     dynamodb_table = "daws76s-locking-dev"
+#   }
+# }
 
 # Configure the AWS Provider
 provider "aws" {

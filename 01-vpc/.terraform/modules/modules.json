@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"roboshop","Source":"git::https://github.com/daws-76s/terraform-aws-vpc.git?ref=main","Dir":".terraform/modules/roboshop"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"roboshop","Source":"git::https://github.com/Mahaboobbasha69/terraform-aws-vpc","Dir":".terraform/modules/roboshop"}]}
