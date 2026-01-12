@@ -2,6 +2,7 @@
 
 
 Below is a logical traffic flow diagram based on how sg.yaml is usually written in Roboshop-style projects.
+![alt text](image.png)
                 INTERNET
                     |
                     | 80 / 443
