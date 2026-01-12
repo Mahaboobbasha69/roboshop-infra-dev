@@ -2,35 +2,7 @@
 
 
 Below is a logical traffic flow diagram based on how sg.yaml is usually written in Roboshop-style projects.
-![alt text](image.png)
-                INTERNET
-                    |
-                    | 80 / 443
-                    v
-              ┌─────────────┐
-              │   ALB SG    │
-              │ (LoadBalancer)
-              └─────────────┘
-                    |
-                    | 80
-                    v
-              ┌─────────────┐
-              │ FRONTEND SG │
-              └─────────────┘
-                    |
-                    | 8080
-                    v
-              ┌─────────────┐
-              │ BACKEND SG  │
-              └─────────────┘
-                    |
-     ┌──────────────┼──────────────┐
-     |               |              |
-     | 27017         | 3306         | 6379
-     v               v              v
-┌─────────┐     ┌─────────┐    ┌─────────┐
-│ MONGO SG│     │ MYSQL SG│    │ REDIS SG│
-└─────────┘     └─────────┘    └─────────┘
+![alt text](image.png)      
 
 🔐 Key Security Concepts
 
